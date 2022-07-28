@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@300;400;600&display=swap');
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body {font-family: 'Outfit', sans-serif;
+background-color: hsl(217, 54%, 11%);
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+}
+
+.container {max-width: 350px;
+margin: 0 auto;}
+
+.card {background-color: hsl(216, 50%, 16%);
+border-radius: 17px;
+margin: 2rem 1rem;
+padding: 20px;
+box-shadow: 0 0 30px 5px rgba(0,0,0,0.75);
+}
+
+
+.image-top img {max-width: 100%;
+display: block;}
+
+
+.image-top {position: relative;
+    border-radius: 12px;
+overflow: hidden;}
+
+.image-over {position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 100%;
+background-color: hsla(178, 100%, 50%, 0.5);
+display: none;}
+
+.image-over img {
+    position: absolute;
+left: 50%;
+top: 50%;
+width: 50px;
+transform: translate(-50%,-50%);}
+
+.image-top:hover .image-over{
+    display: block;}
+
+    .a1 {color: white;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 21px;
+text-decoration: none;
+display: inline-block;}
+.a1:hover{color: hsl(178, 100%, 50%);}
+
+.first-p {
+font-weight: 300;
+padding: 15px 0;
+margin-top: -1em;
+margin-bottom: -1em;
+color: hsl(215, 51%, 70%);}
+.flex {
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+justify-content: space-between;}
+
+.eth,.days{ display: flex;
+    align-items: center;
+}
+.eth p {color:  hsl(178, 100%, 50%);
+padding-left: 7px;
+font-weight: 600;}
+
+.days p {color: #fff;
+padding-left: 7px;
+font-weight: 600;}
+
+.author {display: flex;
+align-items: center;
+
+padding-top: 5px;}
+
+.author img {height: 30px;
+width: 30px;
+border: 2px solid white;
+border-radius: 50%;
+margin-right: 15px;}
+
+.author p {color: #fff;}
+
+.author p a {color: #fff;
+text-decoration: none;}
+
+.author p a:hover{color:hsl(178, 100%, 50%) ;}
+hr {border-color: hsl(215, 32%, 27%);}
+ 
